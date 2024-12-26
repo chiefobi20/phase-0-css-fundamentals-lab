@@ -1,9 +1,11 @@
-header  {
+header {
   text-align: center;
 }
 
-img {display: block;
+img {
+  display: block;
   margin: 0 auto;
+  align-items: center;
 }
 
 nav a{
@@ -15,23 +17,22 @@ nav a{
 }
 
 figcaption {
-  font-size: 0.8rem;
-text-align: center;
+  font-size: 1rem;
+  text-align: center;
 }
 
-#featured-property{
+#featured-property p {
   width: 800px;
-  margin: 0 auto;
+  margin-bottom: 10px;
   text-align: center;
+  margin-left: 540px;
 }
 
-#details {
+#details div {
   float: left;
-}
-
-.div bottom{
-  background-color: orangered;
   text-align: center;
-  width: 25%
+  width: 25%;
+  background-color: orangered;
+
 }
 
